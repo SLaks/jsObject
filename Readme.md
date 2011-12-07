@@ -1,5 +1,7 @@
 jsObject is a powerful Javascript framework for object oriented development.
 
+For sample usage, see the included [jsTest](https://github.com/SLaks/jsObject/blob/master/Tests/jsTest.js).
+
 #Features
  - 	Exceptions (somewhat useless)
  - 	Types
