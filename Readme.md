@@ -2,6 +2,16 @@ jsObject is a powerful Javascript framework for object oriented development.
 
 For sample usage, see the included [jsTest](https://github.com/SLaks/jsObject/blob/master/Tests/jsTest.js).
 
+The scripts are executed in the following order:
+
+ 1. [jsObject.Internal.js](https://github.com/SLaks/jsObject/blob/master/	jsObject.Internal.js)
+ 1. [jsObject.Functions.js](https://github.com/SLaks/jsObject/blob/master/jsObject.Functions.js)
+ 1. [jsObject.Types.js](https://github.com/SLaks/jsObject/blob/master/jsObject.Types.js)
+ 1. [jsObject.Types.Generic.js](https://github.com/SLaks/jsObject/blob/master/jsObject.Types.Generic.js)
+ 1. [jsObject.Core.js](https://github.com/SLaks/jsObject/blob/master/jsObject.Core.js)
+ 1. [jsObject.Classes.js](https://github.com/SLaks/jsObject/blob/master/jsObject.Classes.js)
+ 1. [jsObject.Collection.js](https://github.com/SLaks/jsObject/blob/master/jsObject.Collection.js)
+
 #Features
  - 	Exceptions (somewhat useless)
  - 	Types
